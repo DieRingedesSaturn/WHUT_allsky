@@ -1,0 +1,44 @@
+{
+  "name": "whut_allsky",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://DieRingedesSaturn.github.io/WHUT_allsky",
+  "bugs": {
+    "url": "https://github.com/DieRingedesSaturn/WHUT_allsky/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DieRingedesSaturn/WHUT_allsky.git"
+  },
+  "license": "ISC",
+  "author": "Sai-En Xu",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vitepreview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "astronomia": "^4.2.0",
+    "d3": "^7.9.0",
+    "d3-geo-projection": "^4.0.0",
+    "react": "^19.2.0",
+    "react-data-table-component": "^7.7.0",
+    "react-dom": "^19.2.0",
+    "suncalc": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@types/suncalc": "^1.9.2",
+    "@vitejs/plugin-react": "^5.1.0",
+    "gh-pages": "^6.3.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.12"
+  }
+}
